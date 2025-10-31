@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
+import useStyles from "./Style.jsx";
 
 const Post = () => {
+  const classes = useStyles();
+
   return (
     <>
         <h1>
