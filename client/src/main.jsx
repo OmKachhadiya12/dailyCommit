@@ -3,6 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
+import {Provider} from "react-redux";
+import {createStore,applyMiddleware,compose } from "redux";
+import thunk from "react-thunk";
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
